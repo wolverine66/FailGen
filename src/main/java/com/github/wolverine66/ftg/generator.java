@@ -14,7 +14,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class generator {
+public class Generator {
     public static void main(String[] args) throws JDOMException, IOException {
         float ITotal,IPassed,IFailed,ISkipped,IIgnored;
         SAXBuilder builder = new SAXBuilder();
